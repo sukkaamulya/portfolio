@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #6d28d9;
+  --primary-light: #8b5cf6;
+  --primary-dark: #5b21b6;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gradient-to-br from-purple-900 to-purple-500 min-h-screen text-white;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300;
+}
+
+.nav-link {
+  @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10;
+}
+
+.section {
+  @apply max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8;
+}
+
+.skill-bubble {
+  @apply px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm 
+         hover:bg-white/20 transition-all duration-300 cursor-pointer;
+}
+
+.project-card {
+  @apply bg-white/5 backdrop-blur-sm rounded-xl p-6 
+         hover:bg-white/10 transition-all duration-300;
+}
+
+.contact-input {
+  @apply w-full bg-white/5 rounded-lg px-4 py-3 
+         focus:outline-none focus:ring-2 focus:ring-purple-400 
+         transition-all duration-300;
+}
+
+.glow-button {
+  @apply px-6 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500
+         hover:from-purple-600 hover:to-pink-600 transition-all duration-300
+         shadow-lg hover:shadow-purple-500/50;
+}
