@@ -16,12 +16,18 @@ body {
 }
 
 .gradient-text {
+<<<<<<< HEAD
   background: linear-gradient(90deg, #a855f7, #ec4899);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 
+=======
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300;
+}
+
+>>>>>>> 43fdab7cc2467eedb4f25d8e0a1c572809d4d4bb
 .nav-link {
   @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10;
 }

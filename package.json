@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "framer-motion": "^11.0.8",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+=======
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.0.8",
+>>>>>>> 43fdab7cc2467eedb4f25d8e0a1c572809d4d4bb
     "react-particles": "^2.12.2",
     "tsparticles": "^3.3.0",
     "tsparticles-slim": "^2.12.0"
@@ -32,6 +39,12 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
+<<<<<<< HEAD
     "vite": "^7.3.1"
   }
 }
+=======
+    "vite": "^5.4.2"
+  }
+}
+>>>>>>> 43fdab7cc2467eedb4f25d8e0a1c572809d4d4bb
