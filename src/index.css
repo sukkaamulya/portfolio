@@ -12,46 +12,46 @@
 
 body {
   font-family: 'Inter', sans-serif;
-  @apply bg-gradient-to-br from-purple-900 to-purple-500 min-h-screen text-white;
+  @apply min-h-screen transition-colors duration-300
+         bg-white text-black
+         dark:bg-gradient-to-br dark:from-purple-900 dark:to-purple-500 dark:text-white;
 }
 
+/* Gradient text */
 .gradient-text {
-<<<<<<< HEAD
-  background: linear-gradient(90deg, #a855f7, #ec4899);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-
-=======
   @apply bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-300;
 }
 
->>>>>>> 43fdab7cc2467eedb4f25d8e0a1c572809d4d4bb
+/* Navigation */
 .nav-link {
   @apply px-4 py-2 rounded-lg transition-all duration-300 hover:bg-white/10;
 }
 
+/* Sections */
 .section {
   @apply max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8;
 }
 
+/* Skills */
 .skill-bubble {
   @apply px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm 
          hover:bg-white/20 transition-all duration-300 cursor-pointer;
 }
 
+/* Projects */
 .project-card {
   @apply bg-white/5 backdrop-blur-sm rounded-xl p-6 
          hover:bg-white/10 transition-all duration-300;
 }
 
+/* Forms */
 .contact-input {
   @apply w-full bg-white/5 rounded-lg px-4 py-3 
          focus:outline-none focus:ring-2 focus:ring-purple-400 
          transition-all duration-300;
 }
 
+/* Buttons */
 .glow-button {
   @apply px-6 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500
          hover:from-purple-600 hover:to-pink-600 transition-all duration-300
